@@ -1,0 +1,51 @@
+.container {
+    background-color:#1a1a1a;
+    height: 650px;
+    max-width: 500px;
+    margin: 0 auto;
+    position:relative;
+    .arrow {
+        width: 0;
+        height: 0;
+        border-left: 250px solid transparent;
+        border-right: 250px solid transparent;
+        border-bottom: 250px solid #999999;
+        position:absolute;
+        left: 0;
+        transform: rotate(180deg);
+        top: 0;
+      }
+      .circle {
+            border-radius: 50%;
+            position: absolute;
+            top: 56%;
+            height: 150px;
+            background-color: #999999;
+            width: 150px;
+            left: 35%;
+      }     
+      .circle2 {
+            border-radius: 50%;
+            position: absolute;
+            top: 68%;
+            height: 40px;
+            background-color: #404040;
+            width: 40px;
+            left: 46%;
+      }
+      .rect {
+            opacity: .4;
+            background-color: #404040;
+            width: 50%;
+            height: 650px;
+      }
+      .text {
+            position: absolute;
+            bottom: 10%;
+            left: 35%;
+            color: #fff;
+            font-size: 1.2rem;
+            font-family: arial;
+            letter-spacing: 1px;
+      }
+}
